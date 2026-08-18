@@ -1,0 +1,233 @@
+:root {
+  --bg: #faf9f6;
+  --surface: #ffffff;
+  --border: #e2ddd3;
+  --text: #2b2620;
+  --text-muted: #6b6459;
+  --accent: #8a3324;
+  --accent-soft: #f4e6e1;
+  --tag-syllabus: #6b6459;
+  --tag-review: #2f6b4f;
+  --tag-partial: #a4752b;
+  --max-width: 920px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1815;
+    --surface: #252019;
+    --border: #3a332a;
+    --text: #ece7de;
+    --text-muted: #b3ab9d;
+    --accent: #d98a6f;
+    --accent-soft: #3a2620;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+header.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.site-header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav.site-nav {
+  display: flex;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+}
+
+nav.site-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+nav.site-nav a:hover,
+nav.site-nav a[aria-current="page"] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2.2rem 0 0.8rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.6rem;
+}
+
+p.lede {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  max-width: 62ch;
+}
+
+.notice {
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  margin: 1rem 0 1.6rem;
+}
+
+.notice a { color: var(--accent); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem 1.3rem;
+  margin-bottom: 1.1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+}
+
+.card .meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 0.7rem;
+}
+
+table.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 0.6rem 0 1rem;
+}
+
+table.subject-table th,
+table.subject-table td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.subject-table th {
+  background: var(--accent-soft);
+  font-weight: 600;
+  width: 30%;
+}
+
+.source-list {
+  margin: 0.4rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.82rem;
+}
+
+.source-list li { margin-bottom: 0.15rem; }
+.source-list a { color: var(--accent); }
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.filter-bar button {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.filter-bar button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  color: #fff;
+  margin-right: 0.4rem;
+}
+
+.tag.review { background: var(--tag-review); }
+.tag.syllabus { background: var(--tag-syllabus); }
+.tag.partial { background: var(--tag-partial); }
+
+.reason-list {
+  margin: 0.6rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.reason-list li { margin-bottom: 0.55rem; }
+
+.reason-source {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.reason-source a { color: var(--accent); }
+
+.subject-chip {
+  display: inline-block;
+  font-size: 0.78rem;
+  background: var(--accent-soft);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 0.1rem 0.5rem;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+footer.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}

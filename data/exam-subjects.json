@@ -1,0 +1,113 @@
+{
+  "note": "整理自考選部「公務人員特種考試外交領事人員及外交行政人員考試規則」附表及近年考試簡章（間接查核，非直接讀取官方 PDF 附表原文），考科每年可能微調，使用前請務必至考選部官網（https://www.moex.gov.tw/）或全國法規資料庫核對當年最新簡章。",
+  "retrieved_date": "2026-08-18",
+  "primary_sources": [
+    { "title": "公務人員特種考試外交領事人員及外交行政人員考試規則", "url": "https://law.exam.gov.tw/LawContent.aspx?id=FL016752" },
+    { "title": "考選部考試期日計畫表", "url": "https://wwwc.moex.gov.tw/main/exam/wFrmExamDetail.aspx?c=114140" }
+  ],
+  "categories": [
+    {
+      "id": "grade3-consular-general",
+      "name": "三等考試．外交領事人員（英文組一及其他外文組）",
+      "grade": "三等",
+      "note": "涵蓋英文組一及日文、法文、德文、西班牙文等其他外文組，考科相同、外國文科目依語組不同",
+      "common_subjects": [
+        { "name": "國文（作文與測驗）" },
+        { "name": "綜合法政知識", "detail": "中華民國憲法30%、兩岸關係30%、比較政府與政治40%，測驗式" }
+      ],
+      "professional_subjects": [
+        { "name": "外國文（含新聞書信撰寫與編譯）", "weight": "30%" },
+        { "name": "國際公法", "weight": "與國際經濟平均計 30%" },
+        { "name": "國際經濟", "weight": "與國際公法平均計 30%" },
+        { "name": "國際關係與近代外交史", "weight": "20%" }
+      ],
+      "second_stage": "第二試：中文集體口試（20%）＋外語個別口試（20%）",
+      "score_composition": "第一試筆試 60%＋第二試口試 40%",
+      "sources": [
+        { "title": "外交特考科目／外交特考口試規則及成績計算－公職王", "url": "https://www.public.com.tw/exam-civilservice/diplomatic-subject" },
+        { "title": "外交特考專區－考試科目－TKB百官網公職", "url": "https://byone.tkb.com.tw/diplomatic/index?str=25E6C3D26FAD944742271077E7F94D7B" }
+      ]
+    },
+    {
+      "id": "grade3-consular-english2",
+      "name": "三等考試．外交領事人員（英文組二）",
+      "grade": "三等",
+      "note": "專業科目全部以英文命題與作答",
+      "common_subjects": [
+        { "name": "國文（作文與測驗）" },
+        { "name": "綜合法政知識", "detail": "憲法30%、兩岸關係30%、比較政府與政治40%" }
+      ],
+      "professional_subjects": [
+        { "name": "外交實務英文寫作（全英文命題作答）", "weight": "30%" },
+        { "name": "國際公法（全英文命題作答）", "weight": "與國際經濟平均計 30%" },
+        { "name": "國際經濟（全英文命題作答）", "weight": "與國際公法平均計 30%" },
+        { "name": "國際關係與近代外交史（全英文命題作答）", "weight": "20%" }
+      ],
+      "second_stage": "第二試：中文集體口試＋外語個別口試",
+      "score_composition": "第一試筆試 60%＋第二試口試 40%",
+      "sources": [
+        { "title": "外交特考科目／外交特考口試規則及成績計算－公職王", "url": "https://www.public.com.tw/exam-civilservice/diplomatic-subject" }
+      ]
+    },
+    {
+      "id": "grade3-consular-intl-law",
+      "name": "三等考試．外交領事人員（國際法組）",
+      "grade": "三等",
+      "common_subjects": [
+        { "name": "國文（作文與測驗）" },
+        { "name": "綜合法政知識", "detail": "憲法30%、兩岸關係30%、比較政府與政治40%" }
+      ],
+      "professional_subjects": [
+        { "name": "外交實務英文寫作", "weight": "30%" },
+        { "name": "國際公法（含條約法）", "weight": "25%" },
+        { "name": "國際關係與近代外交史", "weight": "15%" },
+        { "name": "國際海洋法及人權法", "weight": "與其他科目平均計 30%" }
+      ],
+      "second_stage": "第二試：中文集體口試＋外語個別口試",
+      "score_composition": "第一試筆試 60%＋第二試口試 40%",
+      "sources": [
+        { "title": "外交特考專區－考試科目－TKB百官網公職", "url": "https://byone.tkb.com.tw/diplomatic/index?str=25E6C3D26FAD944742271077E7F94D7B" }
+      ]
+    },
+    {
+      "id": "grade4-admin-general",
+      "name": "四等考試．外交行政人員（行政組）",
+      "grade": "四等",
+      "note": "政治系學生報考主力類科之一，考科偏公共行政與國際現勢，不含國際公法等專業法政科目",
+      "common_subjects": [
+        { "name": "國文（作文與測驗）" },
+        { "name": "綜合法政知識", "detail": "憲法30%、兩岸關係30%、比較政府與政治40%" }
+      ],
+      "professional_subjects": [
+        { "name": "國際關係與國際現勢" },
+        { "name": "行政學概要" },
+        { "name": "會計學概要" }
+      ],
+      "second_stage": "第二試：中文個別口試",
+      "score_composition": "第一試筆試 80%＋第二試口試 20%",
+      "sources": [
+        { "title": "外交特考科目／外交特考口試規則及成績計算－公職王", "url": "https://www.public.com.tw/exam-civilservice/diplomatic-subject" }
+      ]
+    },
+    {
+      "id": "grade4-admin-info",
+      "name": "四等考試．外交行政人員（資訊組）",
+      "grade": "四等",
+      "note": "資訊背景考生為主，與政治系課程關聯較低，本站暫不深入做課程對照",
+      "common_subjects": [
+        { "name": "國文（作文與測驗）" },
+        { "name": "綜合法政知識" }
+      ],
+      "professional_subjects": [
+        { "name": "國際關係與國際現勢" },
+        { "name": "資訊安全與網路管理概要" },
+        { "name": "系統分析及設計與資料庫應用概要" }
+      ],
+      "second_stage": "第二試：中文個別口試",
+      "score_composition": "第一試筆試 80%＋第二試口試 20%",
+      "sources": [
+        { "title": "外交特考科目／外交特考口試規則及成績計算－公職王", "url": "https://www.public.com.tw/exam-civilservice/diplomatic-subject" }
+      ]
+    }
+  ]
+}
