@@ -107,8 +107,7 @@ async function renderCourseMapping() {
 
       const reasonList = el("ul", { class: "reason-list" });
       c.reasons.forEach((r) => {
-        const prefix = r.rating ? `［評價 ${r.rating}］` : "";
-        reasonList.appendChild(el("li", { text: prefix + r.text }));
+        reasonList.appendChild(el("li", { text: r.text }));
       });
       card.appendChild(reasonList);
       mount.appendChild(card);
